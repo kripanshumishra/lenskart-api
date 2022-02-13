@@ -1,0 +1,10 @@
+[
+    {
+        "f_type":"rim",
+        "ftype_id": 1
+    },
+    {
+        "f_type":"rimless",
+        "ftype_id": 2
+    }
+]

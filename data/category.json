@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "category":"Eye glasses",
+        "img-link":"https://ibb.co/HPxJZWc"
+    },
+    {
+        "id":2,
+        "category":"Computer glasses",
+        "img-link":"https://ibb.co/hZXTN1J"
+    },
+    {
+        "id":3,
+        "category":"Sunglasses",
+        "img-link":"https://ibb.co/zhKwfbr"
+    },
+    {
+        "id":4,
+        "category":"Reading glasses",
+        "img-link":"https://ibb.co/C5BX332"
+    }
+]

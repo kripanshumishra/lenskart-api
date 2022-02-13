@@ -1,0 +1,2 @@
+api for searchbar, to search brand by name
+    ->http://localhost:500/brands

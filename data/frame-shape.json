@@ -1,0 +1,14 @@
+[
+    {
+        "f_shape":"Rectangular",
+        "fshape_id": 1
+    },
+    {
+        "f_shape":"Round",
+        "fshape_id": 2
+    },
+    {
+        "f_shape":"Square",
+        "fshape_id": 3
+    }
+]
