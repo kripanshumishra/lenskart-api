@@ -11,7 +11,7 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 app.get('/',(req,res)=>{
-    res.status(200).send('welcome to zomato api')
+    res.status(200).send('welcome to lenskart api')
 })
 app.get('/brands',(req,res)=>{
     db.collection('brand name').find().toArray((err,result)=>{

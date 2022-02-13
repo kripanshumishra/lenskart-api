@@ -1,2 +1,18 @@
-api for searchbar, to search brand by name
-    ->http://localhost:500/brands
+api for searchbar, to search brand by frame type , frame shape, category id by passing parameter fType,fShape,cId respectively
+    ->https://lenskartapi.herokuapp.com/brand/1?fType=1&fShape=1
+
+
+api for seaching brands
+    ->https://lenskartapi.herokuapp.com/brands
+
+api for searchbar, to search brand by frame type , frame shape, brand by passing parameter fType,fShape,bId respectively
+    ->https://lenskartapi.herokuapp.com/category/1
+
+api for deleting the order (delete)
+    ->https://lenskartapi.herokuapp.com/deleteOrder/:id
+
+api for placing order (post)
+    ->https://lenskartapi.herokuapp.com/placeorder/glasses
+
+api for updating the order (put request)
+    ->https://lenskartapi.herokuapp.com/updateOrder/:id
