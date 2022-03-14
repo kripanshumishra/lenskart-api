@@ -1,7 +1,9 @@
 [
     {
         "b_name":"Vincent Chase",
-        "b_id": 1
+        "b_id": 1,
+        "thumb":"https://static1.lenskart.com/media/desktop/img/Feb22/18-Feb/urbandesk.gif",
+        "demo":[]
     },
     {
         "b_name":"John Jacobs ",

@@ -6,6 +6,7 @@ const port = process.env.PORT || 5000
 const mongo = require('mongodb')
 const MongoClient = mongo.MongoClient
 const mongourl = "mongodb+srv://test:123@cluster0.qy83a.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+// const mongourl = "mongodb://localhost:27017/lenskart"
 const cors = require('cors')
 app.use(cors())
 app.use(express.json())
@@ -19,6 +20,15 @@ app.get('/brands',(req,res)=>{
         res.status(200).send(result)
     })
 })
+app.get('/glass/:id',(req,res)=>{
+    const {id} = req.params
+    const oId = new mongo.ObjectId(id)
+    db.collection('glasses data').find({"_id":oId}).toArray((err,result)=>{
+        if(err) throw err
+        res.status(200).send(result)
+    })
+})
+
 // getting data on the bases of brand id
 app.get('/brand/:id',(req,res)=>{
     let {id} = req.params
